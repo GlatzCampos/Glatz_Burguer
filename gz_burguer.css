@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+nav {
+	height: 80px;
+	width: 100%;
+}
+
+nav ul {
+	float: right;
+	margin-right: 10rem;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	margin-left: 3rem;
+	color: white;
+	font-size: 25px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.navbar.active, .navbar:hover {
+	background: white;
+	color: black;
+	transition: .5s;
+
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+
+@media (max-width: 1005px) {
+	nav ul {
+		float: right;
+		margin-right: 8rem;
+	}
+}
+
+@media (max-width: 975px){
+	img.logo-navbar {
+        height: 70%;
+        padding-left: -20px;
+    }
+	nav ul li a{
+		font-size: 16px;
+	}
+	nav ul {
+		float: right;
+		margin-right: 8rem;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+        background-color:rgba(0, 0, 0, 0.9);
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		margin-left: 1rem;
+		font-size: 20px;
+		color: black;
+		opacity: 0.8;
+	}
+
+	a:hover, a {
+		background: white;
+		opacity: 1;
+		transition: .5s;
+
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+
+	.image-burguer.active{
+		display:inline-block;
+		justify-content: space-between;
+		align-items: center;
+		height: 20%;
+		width: 10%;
+		padding: 0 auto;
+	}
+
+	.image-burguer20.active{
+		display:inline-block;
+		justify-content: space-between;
+		align-items: center;
+		height: 20%;
+		width: 10%;
+		padding: 0 auto;
+	}
+
+}
+
+.logo-navbar {
+	padding-top: 20px;
+    padding-left: 30px;
+    height: 80%;
+}
+
+.bg-fundo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: -0%;
+    left: -0%;
+    z-index: -100;
+    object-fit: cover;
+
+}
+
+.logo-prin { 
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	margin-top: 5rem;
+
+
+}
+
+body{
+	background-color: #E0D6C1;
+}
+
+.image-burguer {
+	padding-right: 5rem;
+	padding-top: 9rem;
+	display: flex;
+	height: auto;
+}
+
+.image-burguer img{
+	height: 14rem;
+	margin-left: 4.5rem;
+}
+
+.image-burguer1 p{
+	margin-left: 13rem;
+	font-size: 2rem;
+}
+
+.image-burguer2 p{
+	margin-left: 13rem;
+	font-size: 2rem;
+}
+
+.image-burguer3 p{
+	margin-left: 13rem;
+	font-size: 2rem;
+}
+
+.image-burguer20 {
+	padding-right: 5rem;
+	padding-top: 3rem;
+	display: flex;
+	height: auto;
+}
+
+.image-burguer20 img{
+	height: 14rem;
+	margin-left: 4.5rem;
+}
+
+.image-burguer4 p{
+	margin-left: 13rem;
+	font-size: 2rem;
+}
+.image-burguer5 p{
+	margin-left: 13rem;
+	font-size: 2rem;
+}
+.image-burguer6 p{
+	margin-left: 13rem;
+	font-size: 2rem;
+}
+
+footer {
+
+	margin-top: 5rem;
+	align-items: center;
+	background-color: #262626;
+	bottom: 0;
+	color: #666666;
+	font-size: 2.6rem;
+	height: 400px;
+	justify-content: center;
+	width: 100%;
+	border-radius: 25px 25px 0px 0px;
+}
+
+.pagamento{
+	margin: 0 auto;
+	padding-top: 8rem;
+	margin-left: 34rem;
+	max-width: 100%;
+	margin-top: 5rem;
+
+}
+
+hr{
+	width: 21rem;
+	margin-top: 0.6rem;
+	margin-left: -2.3rem;
+	border-color:#666666;
+	background-color: #666666;
+}
+
+
+.mastercard{
+	height: 5vh;
+	border-radius: 5px 5px 5px 5px;
+}
+.elo{
+	height: 5vh;
+	border-radius: 5px 5px 5px 5px;
+}
+.visa{
+	height: 5vh;
+	border-radius: 5px 5px 5px 5px;
+}
+.pix{
+	height: 5vh;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.tipo-pagamento p{
+	display: flex;
+	font-size: 1.7rem;
+}
+
+.telefone{
+	padding-left: 65px;
+}
+
+.local{
+	padding-left: 17px;
+}
+
+.social-media:hover{
+	background: none;
+
+}
+
+.social-media{
+	display: flex;
+}
+
+.instagram {
+	height:50px;
+	margin-left: 3rem;
+}
+.linkedin {
+	height:50px;
+	margin-left: 8px;
+}
+.github {
+	height:50px;
+	margin-left: 8px;
+}
+
+@media(max-width: 1000px){
+	footer {
+		padding-right: 7rem;
+		padding-top: 2rem;
+		display:flex;
+		height: auto;
+	}
+
+	.image-burguer.active{
+		height: 9rem;
+		margin-left: 2.9rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+
+	html{
+		font-size: 87.5%;
+	}
+	.image-burguer20 img{
+
+		height: 9rem;
+		margin-left: 2.9rem;
+	}
+}
