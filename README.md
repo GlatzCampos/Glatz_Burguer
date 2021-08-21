@@ -1,4 +1,4 @@
-# GlatzBurguer
+# Glatz_Burguer
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/GlatzCampos/GlatzBurguer?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/GlatzCampos/GlatzBurguer?style=for-the-badge)
 
-<img src="images/Readme.png" alt="GlatzBurguer image">
+<img src="images/Readme.png" alt="Glatz_Burguer image">
 
 >O projeto foi a partir de um trabalho de artes no meu colegio.<br>
 O desafio era fazer um site de Fast-Food apresentavel e "funcional".
@@ -30,14 +30,22 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/GlatzCampos">
         <img src="https://avatars.githubusercontent.com/u/83238833?s=400&u=e207fe4e14fb53400903f01622aad1e0a4cf38fd&v=4" width="100px;" alt="Foto do Gabriel Glatz"/><br>
         <sub>
           <b>Gabriel Glatz</b>
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/MatheusFC2">
+        <img src="https://avatars.githubusercontent.com/u/69259671?v=4" width="100px;" alt="Foto do Matheus Freitas"/><br>
+        <sub>
+          <b>Matheus Freitas</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#GlatzBurguer)<br>
+[⬆ Voltar ao topo](#Glatz_Burguer)<br>
