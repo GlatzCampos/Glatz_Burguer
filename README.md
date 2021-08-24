@@ -25,7 +25,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 🤝 Responsáveis
 
-Às seguintes pessoas que contribuíram para este projeto:
+### Às seguintes pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
